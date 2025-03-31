@@ -61,6 +61,7 @@ h1 {
 }
 h2 {
   font-size: var(--headline2-size);
+  margin-top: 35px;
 }
 h3 {
   font-size: var(--headline3-size);

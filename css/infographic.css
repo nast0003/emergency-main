@@ -5,6 +5,7 @@
 .info-text {
   background-color: var(--info-background-color);
   padding: 0;
+  border-radius: 3rem;
 }
 .info-text h2 {
   line-height: 3rem;
