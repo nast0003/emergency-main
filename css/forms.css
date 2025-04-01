@@ -4,8 +4,41 @@ button {
   display: block;
 }
 
+.form-flex {
+  display: inline-block;
+  gap: 3rem;
+  padding-left: 50px;
+  padding-top: 30;
+}
+
+.form-flex2 {
+  padding-left: 50px;
+  gap: 3rem;
+  padding-bottom: 30px;
+}
+
+.form-flex3 {
+  display: inline-block;
+  gap: 3rem;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.form-flex3 textarea {
+  width: 100%;
+  height: 60px;
+  padding: 0.5rem;
+  resize: vertical;
+}
+
+.btn-indsend {
+  align-items: right;
+  padding: 0.5rem;
+}
+
 #webform {
   background-color: var(--form-background-color);
+  margin-top: 50px;
 }
 
 #form-section,

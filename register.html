@@ -29,15 +29,31 @@
       <h1>INDBERET</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
+          <h2>KÆMPE HAMSTERFLUGT!</h2>
+          <p>Har du set en af de undslupne gnavere? Indsend din observation her, så vi kan få alle dyr tilbage i de rette bure.</p>
         </article>
         <form id="webform">
-          <label for="name">Navn</label>
-          <input id="name" type="text" />
-          <label for="email">E-mail</label>
-          <input type="email" name="email" />
-          <button type="submit">Send</button>
+          <div class="form-flex">
+            <label for="name">Navn</label>
+            <input id="name" type="text" />
+          </div>
+          <div class="form-flex">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" />
+          </div>
+          <div class="form-flex2">
+            <label for="Lokation">Lokation for observation (skriv gerne så præcis en lokation som muligt)</label>
+            <input id="Lokation" type="text" name="Lokation" required />
+          </div>
+          <div class="form-flex3">
+            <label for="beskrivelse">Beskrivelse af den observerede hamster</label>
+            <textarea name="beskrivelse" id="beskrivelse"></textarea>
+          </div>
+          <div class="form-flex3">
+            <label for="photo">Upload billede af den observerede hamster (valgfrit):</label>
+            <input type="file" id="photo" name="photo" />
+          </div>
+          <button class="btn-indsend" type="submit">Indsend</button>
         </form>
       </section>
       <section id="form-summary">
