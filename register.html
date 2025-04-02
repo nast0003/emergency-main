@@ -35,10 +35,14 @@
           <p>Har du set en af de undslupne gnavere?</p>
           <p>Indsend din observation her, så vi kan få alle dyr tilbage i de rette bure.</p>
           <div class="form-flex">
-            <label for="name">Navn</label>
-            <input id="name" type="text" required />
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" required />
+            <div>
+              <label for="name">Navn</label>
+              <input id="name" type="text" required />
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" required />
+            </div>
           </div>
           <div class="form-flex2">
             <label for="Lokation">Lokation for observation (skriv gerne så præcis en lokation som muligt)</label>
@@ -46,7 +50,7 @@
           </div>
           <div class="form-flex3">
             <label for="beskrivelse">Beskrivelse af den observerede hamster</label>
-            <textarea name="beskrivelse" id="beskrivelse" maxlength="500"></textarea>
+            <textarea name="beskrivelse" id="beskrivelse" maxlength="150"></textarea>
             <label for="photo">Upload billede af den observerede hamster (valgfrit):</label>
             <input type="file" id="photo" name="photo" />
           </div>

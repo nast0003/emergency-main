@@ -28,9 +28,10 @@ h2 {
 }
 
 .form-flex {
-  display: inline-block;
+  display: flex;
   gap: 3rem;
   padding-left: 50px;
+  align-items: center;
 }
 
 .form-flex2 {
@@ -53,7 +54,7 @@ h2 {
 }
 
 .form-flex3 textarea {
-  width: 100%;
+  width: 115%;
   height: 60px;
   padding: 0.5rem;
   resize: vertical;
@@ -65,10 +66,10 @@ h2 {
   margin-top: 25px;
   justify-content: right;
   background-color: #ff4b00;
-  border-color: #ff4b00;
   font-family: "Rubik";
   color: #fffae2;
   font-size: 1.25rem;
+  border: 0;
 }
 
 button:hover {
@@ -97,6 +98,18 @@ h2 {
   background-color: var(--headline-bg-color-inverted);
   color: var(--headline-color-inverted);
   padding-top: 5px;
+}
+
+#Lokation {
+  width: 75%;
+}
+
+#name {
+  width: 115%;
+}
+
+#email {
+  width: 115%;
 }
 
 #form-section,
