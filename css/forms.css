@@ -8,7 +8,8 @@ button {
 
 input:focus,
 textarea:focus {
-  border-color: #dbe2f5;
+  background-color: #dbe2f5;
+  outline: none;
 }
 
 input:user-invalid {
@@ -20,7 +21,6 @@ p {
   font-family: "Rubik";
   font-size: 1rem;
   padding-bottom: 10px;
-  text-align: center;
 }
 
 h2 {
@@ -29,7 +29,7 @@ h2 {
 
 .form-flex {
   display: flex;
-  gap: 3rem;
+  gap: 5rem;
   padding-left: 50px;
   align-items: center;
 }
@@ -54,13 +54,13 @@ h2 {
 }
 
 .form-flex3 textarea {
-  width: 115%;
+  width: 122%;
   height: 60px;
   padding: 0.5rem;
   resize: vertical;
 }
 
-.btn-indsend {
+#btn-indsend {
   width: 150px;
   padding: 0.5rem;
   margin-top: 25px;
@@ -72,7 +72,20 @@ h2 {
   border: 0;
 }
 
-button:hover {
+#reset-btn {
+  width: 200x;
+  padding: 0.5rem;
+  margin-top: 25px;
+  justify-content: right;
+  background-color: #ff4b00;
+  font-family: "Rubik";
+  color: #fffae2;
+  font-size: 1rem;
+  border: 0;
+}
+
+button:hover,
+#reset-btn:hover {
   background-color: #f24700;
 }
 
@@ -101,15 +114,21 @@ h2 {
 }
 
 #Lokation {
-  width: 75%;
+  width: 85%;
 }
 
 #name {
-  width: 115%;
+  width: 133%;
 }
 
 #email {
-  width: 115%;
+  width: 133%;
+}
+
+#sum div {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  gap: 0.5rem;
 }
 
 #form-section,
@@ -129,7 +148,8 @@ h2 {
   line-height: 0.8rem;
   font-weight: 600;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  gap: 1rem;
 }
 #form-summary > *:not(:first-child) {
   margin: 0 clamp(1rem, 10%, 7rem);

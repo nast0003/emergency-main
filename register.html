@@ -49,18 +49,39 @@
             <input id="Lokation" type="text" name="Lokation" required />
           </div>
           <div class="form-flex3">
-            <label for="beskrivelse">Beskrivelse af den observerede hamster</label>
+            <label for="beskrivelse">Beskrivelse af den observerede hamster (max. 150 tegn)</label>
             <textarea name="beskrivelse" id="beskrivelse" maxlength="150"></textarea>
             <label for="photo">Upload billede af den observerede hamster (valgfrit):</label>
             <input type="file" id="photo" name="photo" />
           </div>
-          <div class="form-flex4"><button class="btn-indsend" type="submit">INDSEND</button></div>
+          <div class="form-flex4"><button id="btn-indsend" type="submit">INDSEND &#8594</button></div>
         </form>
       </section>
       <section id="form-summary">
         <h2>Summary</h2>
-        <article>
-          <p class="placeholder">Opsummering</p>
+        <article id="sum">
+          <div>
+            <h3>Navn</h3>
+            <p id="sumName"></p>
+          </div>
+          <div>
+            <h3>E-mail</h3>
+            <p id="sumEmail"></p>
+          </div>
+          <div>
+            <h3>Lokation for observation</h3>
+            <p id="sumLocation">
+            </p>
+          </div>
+          <div>
+            <h3>Beskrivelse af observerede hamster</h3>
+            <p id="sumDescription">
+             
+            </p>
+          </div>
+          <form>
+            <button type="reset" id="reset-btn">Godkend og luk</button>
+          </form>
         </article>
       </section>
     </main>
