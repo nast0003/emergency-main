@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/infographic.css" />
     <link rel="stylesheet" href="css/forms.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
+
     <title>Emergency Site</title>
   </head>
   <body id="register">
@@ -45,8 +46,8 @@
             </div>
           </div>
           <div class="form-flex2">
-            <label for="Lokation">Lokation for observation (skriv gerne så præcis en lokation som muligt)</label>
-            <input id="Lokation" type="text" name="Lokation" required />
+            <label for="lokation">Lokation for observation (skriv gerne så præcis en lokation som muligt)</label>
+            <input id="lokation" type="text" name="lokation" required />
           </div>
           <div class="form-flex3">
             <label for="beskrivelse">Beskrivelse af den observerede hamster (max. 150 tegn)</label>
@@ -54,7 +55,7 @@
             <label for="photo">Upload billede af den observerede hamster (valgfrit):</label>
             <input type="file" id="photo" name="photo" />
           </div>
-          <div class="form-flex4"><button id="btn-indsend" type="submit">INDSEND &#8594</button></div>
+          <div class="form-flex4"><button id="btn-indsend" type="submit">INDSEND &#8594;</button></div>
         </form>
       </section>
       <section id="form-summary">
@@ -70,14 +71,11 @@
           </div>
           <div>
             <h3>Lokation for observation</h3>
-            <p id="sumLocation">
-            </p>
+            <p id="sumLocation"></p>
           </div>
           <div>
             <h3>Beskrivelse af observerede hamster</h3>
-            <p id="sumDescription">
-             
-            </p>
+            <p id="sumDescription"></p>
           </div>
           <form>
             <button type="reset" id="reset-btn">Godkend og luk</button>
@@ -111,5 +109,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="./js/form.js"></script>
   </body>
 </html>
