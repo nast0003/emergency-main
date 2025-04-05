@@ -18,7 +18,8 @@ function submitForm() {
   document.querySelector("#sumName").innerHTML = document.querySelector("#name").value;
   document.querySelector("#sumEmail").textContent = document.querySelector("#email").value;
   document.querySelector("#sumLocation").textContent = document.querySelector("#lokation").value;
-  document.querySelector("#sumDescription").textContent = document.querySelector("beskrivelse").value;
+  document.querySelector("#sumDescription").textContent = document.querySelector("#beskrivelse").value;
+  document.querySelector("#sum").style.visibility = "visible";
 }
 
 document.querySelector("#reset-btn").addEventListener("click", reset);
