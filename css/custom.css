@@ -28,14 +28,14 @@
   /* From styletile */
 
   /* Fonts */
-  --logotype-font: "Roboto", sans-serif;
-  --headline-font: "Roboto", sans-serif;
-  --body-font: "Roboto", sans-serif;
-  --link-font: "Calibri", sans-serif;
+  --logotype-font: "Rubik";
+  --headline-font: "Rubik";
+  --body-font: "Rubik";
+  --link-font: "Rubik";
 
   /* Text sizes */
   --logotype-size: 1.5rem;
-  --headline1-size: 2.25;
+  --headline1-size: 3rem;
   --headline2-size: 1.5rem;
   --headline3-size: 1.25rem;
   --bodytext-size: 1.25rem;
@@ -60,10 +60,9 @@
   /* Background colors */
   --logotype-background-color: #000000;
   --header-background-color: #6f90eb;
-  --article-background-color: #ffffff;
+  --article-background-color: #fffae2;
   --news-background-color: #fffae2;
   --news-background-color-inverted: #dbe2f5;
-  --info-background-color: #ffffff;
   --headline-bg-color: #dbdde3;
   --headline-bg-color-alert: #ff4b00;
   --headline-bg-color-inverted: #000000;

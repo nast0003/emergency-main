@@ -1,5 +1,9 @@
+body {
+  font-family: "Rubik";
+}
+
 .daily_card {
-  background-color: var(--article-background-color);
+  background-color: #ffffff;
   display: grid;
   grid-template-columns: 3fr 5fr;
   gap: 10px;
@@ -12,6 +16,7 @@
   display: grid;
   grid-template-rows: repeat(3, min-content);
   gap: 10px;
+  font-family: "Rubik";
 }
 .daily_text h2 {
   background-color: var(--headline-bg-color-inverted);
@@ -54,6 +59,7 @@
 }
 .news_card:first-child:before {
   content: "BREAKING NEWS";
+  margin-top: 10px;
   background-color: var(--headline-bg-color-inverted);
   color: var(--headline-color-inverted);
   font-family: var(--headline-font);
@@ -63,11 +69,33 @@
   padding: calc(1.1rem / 1.5) 0 calc(1.1rem / 2) 0;
   /* margin: 0 0 1rem 0; */
 }
+
+.news_card:first-child .cta_btn {
+  background-color: #ffa680;
+  border: #ffa680;
+  width: 150px;
+  margin: 50px;
+}
+
+.news_card:last-child .cta_btn {
+  background-color: #ffa680;
+  border: #ffa680;
+  width: 150px;
+  margin: 50px;
+}
+
 .news_card:first-child {
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 .news_card:last-child {
   border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.news_card:nth-child(2n) .cta_btn {
+  background-color: #6f90eb;
+  border-color: #6f90eb;
+  width: 150px;
+  margin: 50px;
 }
 
 .news_card .cta_btn {
@@ -84,7 +112,40 @@
   text-decoration: none;
   width: max-content;
 }
+
+.daily_card .cta_btn {
+  width: 150px;
+  padding: 0.5rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: right;
+  background-color: #ff4b00;
+  font-family: "Rubik";
+  color: #fffae2;
+  font-size: 1.25rem;
+  border: 0;
+}
+
+.daily_card h2 {
+  margin-top: 15px;
+}
+
 .cta_btn:after {
   content: "\2192";
   margin-left: 0.5rem;
+}
+
+.daily_card img {
+  width: 200px;
+  height: 200px;
+}
+
+.news_card img {
+  width: 300px;
+  height: 200px;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(../fonts/Rubik/static/Rubik-Regular.ttf);
 }

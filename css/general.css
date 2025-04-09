@@ -33,6 +33,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
   padding-left: 2rem;
+  background-color: #ff4b00;
 }
 #main-disclamer-content {
   display: flex;
