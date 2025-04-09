@@ -73,15 +73,17 @@ body {
 .news_card:first-child .cta_btn {
   background-color: #ffa680;
   border: #ffa680;
-  width: 150px;
-  margin: 50px;
+  width: 200px;
+  height: 50px;
+  margin: 30px;
 }
 
 .news_card:last-child .cta_btn {
   background-color: #ffa680;
   border: #ffa680;
-  width: 150px;
-  margin: 50px;
+  width: 200px;
+  height: 50px;
+  margin: 30px;
 }
 
 .news_card:first-child {
@@ -94,13 +96,37 @@ body {
 .news_card:nth-child(2n) .cta_btn {
   background-color: #6f90eb;
   border-color: #6f90eb;
-  width: 150px;
-  margin: 50px;
+  width: 200px;
+  height: 50px;
+  margin: 30px;
 }
 
 .news_card .cta_btn {
   justify-self: center;
 }
+
+dialog {
+  background-color: #dbe2f5;
+  border-radius: 2rem;
+}
+
+::backdrop {
+  backdrop-filter: blur(15px);
+}
+
+.close-dialog {
+  width: 150px;
+  padding: 0.5rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: right;
+  background-color: #ff4b00;
+  font-family: "Rubik";
+  color: #fffae2;
+  font-size: 1.25rem;
+  border: 0;
+}
+
 .cta_btn {
   display: inline-block;
   padding: 0.3rem 0.5rem;
@@ -111,11 +137,12 @@ body {
   text-align: center;
   text-decoration: none;
   width: max-content;
+  font-size: 1.25rem;
 }
 
 .daily_card .cta_btn {
-  width: 150px;
-  padding: 0.5rem;
+  width: 200px;
+  padding: 1rem;
   margin-top: 25px;
   margin-bottom: 25px;
   justify-content: right;

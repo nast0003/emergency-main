@@ -1,6 +1,6 @@
 // Version 1: One breaking only
 // **********************************************
-const openBtn = document.querySelector(".news_card .read-more");
+const openBtn = document.querySelector(".news_card .cta_btn");
 const closeBtn = document.querySelector(".news_card dialog button");
 const dialog = document.querySelector(".news_card dialog");
 openBtn.addEventListener("click", openDialog);
@@ -12,6 +12,7 @@ function openDialog() {
 function closeDialog() {
   dialog.close();
 }
+
 // **********************************************
 
 // Version 2: with 3 sets of functions to make 3 breaking news work
