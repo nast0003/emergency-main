@@ -38,6 +38,8 @@ footer {
 #main-disclamer-content {
   display: flex;
   column-gap: 1rem;
+  width: 100px;
+  height: 100px;
 }
 main section {
   padding: 20px;
@@ -57,7 +59,7 @@ h1 {
   font-size: var(--headline1-size);
   color: var(--headline-color-inverted);
   margin: 5px 0;
-  line-height: 1rem;
+  line-height: 3rem;
   text-align: left;
 }
 h2 {

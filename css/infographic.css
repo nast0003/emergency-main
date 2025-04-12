@@ -31,3 +31,12 @@
   margin: 0 0 1.2rem 0;
   padding: 0;
 }
+
+text {
+  font-family: "Rubik";
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(../fonts/Rubik/static/Rubik-Regular.ttf);
+}

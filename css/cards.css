@@ -2,6 +2,36 @@ body {
   font-family: "Rubik";
 }
 
+h4 {
+  font-family: "Rubik";
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.closeBtn1,
+.closeBtn2,
+.closeBtn3 {
+  width: 150px;
+  padding: 0.5rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: right;
+  background-color: #ff4b00;
+  font-family: "Rubik";
+  color: #fffae2;
+  font-size: 1.25rem;
+}
+
 .daily_card {
   background-color: #ffffff;
   display: grid;
@@ -108,9 +138,11 @@ body {
 dialog {
   background-color: #dbe2f5;
   border-radius: 2rem;
+  width: 700px;
+  height: auto;
 }
 
-::backdrop {
+dialog::backdrop {
   backdrop-filter: blur(15px);
 }
 
