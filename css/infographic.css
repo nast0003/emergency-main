@@ -26,14 +26,26 @@
   margin: 0 clamp(1rem, 10%, 7rem);
 }
 .info-text p {
-  font-size: 0.8rem;
-  line-height: 1.3;
+  font-size: 1rem;
+  line-height: 1.5;
   margin: 0 0 1.2rem 0;
   padding: 0;
 }
 
-text {
+text,
+data-title,
+data-text {
   font-family: "Rubik";
+}
+
+.placeholder {
+  font-family: "Rubik";
+  font-size: 2rem;
+  line-height: 1.25rem;
+}
+
+text:hover {
+  color: red;
 }
 
 @font-face {

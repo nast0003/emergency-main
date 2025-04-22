@@ -74,7 +74,7 @@ main > h1 {
   background-color: var(--headline-bg-color-alert);
   color: var(--headline-color-inverted);
   line-height: 4rem;
-  padding: 5px 3rem 0 3rem;
+  padding: 25px 0 25px 25px;
   width: calc(80% - 6rem);
 }
 
