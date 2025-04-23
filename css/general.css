@@ -118,6 +118,11 @@ header nav li a {
   padding: 0.5rem 1rem;
   border-radius: var(--border-radius);
 }
+
+#switchtext3 {
+  color: #fffae2;
+}
+
 header > nav li > a:after {
   content: " \2192";
 }
