@@ -2,8 +2,9 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 52px;
+  width: 70px;
   height: 28px;
+  margin-right: 25px;
 }
 
 /* Gemme default html checkbos */
@@ -23,7 +24,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #dcd3d3;
+  background-color: #fffae2;
   border-radius: 34px;
 }
 
@@ -36,7 +37,7 @@
   width: 22px;
   left: 4px;
   bottom: 3px;
-  background-color: rgb(58, 150, 157);
+  background-color: #6f90eb;
   transition: 0.4s;
   border-radius: 50%;
 }
@@ -45,4 +46,8 @@
 
 input:checked + .slider::before {
   translate: 100% 0;
+}
+
+#switchtext3 {
+  font-family: "Rubik";
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/infographic.css" />
     <link id="lightmode" rel="stylesheet" href="css/light.css" />
+    <link rel="stylesheet" href="css/darkstyle.css" />
 
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
@@ -18,8 +19,11 @@
       <nav>
         <div id="logotype-wrapper">
           <a href="index.html"> LOGOTYPE </a>
-          <button id="switchBtn3"></button>
-          <span id="switchtext3">Dark Mode</span>
+          <legend id="switchtext3">Dark mode</legend>
+          <label class="switch">
+            <input id="switchBtn3" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
         </div>
         <ul class="menu">
           <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
@@ -525,7 +529,7 @@
             r="20"
             fill="red"
             data-title="2. Sørg for at flugten stopper"
-            data-text="Luk døre og vinduer Før du kaster dig ud i en hektisk jagt, er det vigtigt at sørge for, at din hamster ikke får lov at udvide
+            data-text="Luk døre og vinduer! Før du kaster dig ud i en hektisk jagt, er det vigtigt at sørge for, at din hamster ikke får lov at udvide
           sin frihed. Luk døre og vinduer - vi er ikke på flugt for at finde en 'Escape Room'-løsning her, så sørg for, at ingen flugtruter er åbne. Tjek alle små sprækker, for hamstere har en bemærkelsesværdig evne til at finde selv de mindste
           åbninger. Den vil hurtigt finde et gemmested - måske et du slet ikke har opdaget."
           />
@@ -550,7 +554,7 @@
             r="20"
             fill="red"
             data-title="4. Fang hamsteren!"
-            data-text="Brug en æske eller et bur
+            data-text="Brug en æske eller et bur. 
           Nu begynder den virkelige mission: indfangning! Brug en æske, et bur - eller hvad du nu har ved hånden, som ikke vil stresse hamsteren yderligere. Din hamster er måske lidt nervøs (og du ser ud som en voksen, der leger med en æske), men tag det roligt. Tålmodighed er nøglen, for hamstere er som små ninjaer: hurtigt og svære at fange! Når du har ham, sørg for et stille og trygt sted, så din hamster kan tage sig en velfortjent pause."
           />
           <text x="250" y="435" text-anchor="middle" fill="white" font-size="18px">4</text>
@@ -574,7 +578,7 @@
             r="20"
             fill="red"
             data-title="6. Forebyggelse"
-            data-text="Tjek sikkerheden i kæledyrshjørnet regelmæssigt
+            data-text="Tjek sikkerheden i kæledyrshjørnet regelmæssigt.
           Ingen vil have en gentagelse af hamsterflugt-maratonet, så gør det til en vane at tjekke buret jævnligt. Kig efter de små, usynlige flugtveje, for hamstere er mestre i at finde dem! Sørg for, at miljøet er roligt og trygt, så din hamster ikke føler sig fristet til at tage på nye eventyr. Det er som at være en hamster-detektiv: Find sikkerhedshullerne og sørg for, at flugten ikke sker igen. En god rutine er din bedste ven!"
           />
           <text x="120" y="395" text-anchor="middle" fill="white" font-size="18px">6</text>
@@ -585,8 +589,6 @@
         <article>
           <p class="placeholder">Klik dig igennem infografikken til venstre og find 6 gode råd i tilfælde af en kæmpe hamsterflugt</p>
         </article>
-        <aside id="efficiency" class="info-box yellow">INFO-BOX</aside>
-        <aside id="requirement" class="info-box green">INFO-BOX</aside>
       </section>
     </main>
 

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/cards.css" />
     <link id="lightmode" rel="stylesheet" href="css/light.css" />
+    <link rel="stylesheet" href="css/darkstyle.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
   </head>
@@ -19,8 +20,11 @@
       <nav>
         <div id="logotype-wrapper">
           <a href="index.html"> LOGOTYPE </a>
-          <button id="switchBtn3"></button>
-          <span id="switchtext3">Dark Mode</span>
+          <legend id="switchtext3">Dark mode</legend>
+          <label class="switch">
+            <input id="switchBtn3" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
         </div>
         <ul class="menu">
           <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
