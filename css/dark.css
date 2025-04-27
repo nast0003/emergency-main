@@ -102,3 +102,8 @@
 #switchtext3 {
   color: #fffae2;
 }
+
+dialog {
+  background-color: #000000;
+  color: #fffae2;
+}
